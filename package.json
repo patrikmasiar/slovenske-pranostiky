@@ -18,7 +18,7 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "ENV=PRODUCTION tsc -w & nodemon -q -w dist dist/index.js",
+    "start": "ENV=PRODUCTION node dist/index.js",
     "run": "tsc -w & nodemon -q -w dist dist/index.js",
     "build": "ENV=PRODUCTION tsc",
     "lint": "eslint . --ext .ts"
