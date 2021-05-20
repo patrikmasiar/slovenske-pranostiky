@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/patrikmasiar/slovenske-pranostiky/blob/main/cover.jpeg?raw=true">
+</p>
+
+
 # Slovenské pranostiky (slovak only) 🇸🇰
 > DEV EDITION
 
