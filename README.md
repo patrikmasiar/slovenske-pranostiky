@@ -9,6 +9,7 @@
 # Obsah
 * [Data](#data)
 * [API](#api)
+* [Referencie](#referencie)
 
 ## Data
 `src/data.json`
@@ -33,3 +34,6 @@ data["6"]["15"];
 
 ## API
 > ČOSKORO
+
+## Referencie
+* [Presné počasie | presnepocasie.sk](https://presnepocasie.sk/)
