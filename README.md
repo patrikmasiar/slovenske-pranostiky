@@ -11,7 +11,7 @@
 * [API](#api)
 
 ## Data
-`data.json`
+`src/data.json`
 
 ### Príklad
 
