@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/patrikmasiar/slovenske-pranostiky/blob/main/cover.jpeg?raw=true">
+  <img width="300" src="https://github.com/patrikmasiar/slovenske-pranostiky/blob/main/cover.jpeg?raw=true">
 </p>
 
 
