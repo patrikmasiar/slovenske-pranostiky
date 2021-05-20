@@ -9,6 +9,7 @@
 # Obsah
 * [Data](#data)
 * [API](#api)
+  * [Aplikácia](#endpoint) 
 * [Referencie](#referencie)
 
 ## Data
@@ -33,7 +34,30 @@ data["6"]["15"];
 ```
 
 ## API
-> ČOSKORO
+
+### Endpoint
+[https://slovenske-pranostiky-api.herokuapp.com/12/31](https://slovenske-pranostiky-api.herokuapp.com/)
+
+### Routes
+
+| ROUTE | METHOD |
+|:-------------|:-------------|
+| `/` | **GET** |
+| `/:month` | **GET** |
+| `/:month/:day` | **GET** |
+
+### Interface
+```javascript
+month: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
+day: number;
+```
+
+### Príklad
+> Pranostiky na 15. júl
+
+```javascript
+fetch('https://slovenske-pranostiky-api.herokuapp.com/7/15').then(...);
+```
 
 ## Referencie
 * [Presné počasie | presnepocasie.sk](https://presnepocasie.sk/)
