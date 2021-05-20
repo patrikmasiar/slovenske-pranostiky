@@ -15,6 +15,24 @@ router.get('/', async (req: Request, res: Response) => {
   }).end();
 });
 
+router.get('/:month', async (req: Request, res: Response) => {
+  const month = Number.parseInt(req.params.month);
+
+  if (isNaN(month) || !SUPPORTED_MONTHS.includes(month)) {
+    return res.status(400).json({
+      error: {
+        message: 'Not supported month value',
+      },
+      data: null,
+    }).end();
+  }
+
+  res.status(200).json({
+    error: null,
+    data: data[month - 1],
+  }).end();
+});
+
 router.get('/:month/?:day', async (req: Request, res: Response) => {
   const month = Number.parseInt(req.params.month);
   const day = Number.parseInt(req.params.day);
