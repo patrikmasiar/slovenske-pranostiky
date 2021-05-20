@@ -36,7 +36,7 @@ data["6"]["15"];
 ## API
 
 ### Endpoint
-[https://slovenske-pranostiky-api.herokuapp.com/12/31](https://slovenske-pranostiky-api.herokuapp.com/)
+[https://slovenske-pranostiky-api.herokuapp.com/](https://slovenske-pranostiky-api.herokuapp.com/)
 
 ### Routes
 
