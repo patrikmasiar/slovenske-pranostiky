@@ -1,5 +1,9 @@
-# Slovenské pranostiky 🇸🇰
+# Slovenské pranostiky (slovak only) 🇸🇰
 > DEV EDITION
+
+# Obsah
+* [Data](#data)
+* [API](#api)
 
 ## Data
 `data.json`
@@ -21,3 +25,6 @@ data["6"]["15"];
 ];
 */
 ```
+
+## API
+> ČOSKORO
