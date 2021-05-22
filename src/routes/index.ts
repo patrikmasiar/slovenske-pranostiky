@@ -35,7 +35,7 @@ router.get('/:month', async (req: Request, res: Response) => {
   }).end();
 });
 
-router.get('/:month/?:day', async (req: Request, res: Response) => {
+router.get('/:month/:day', async (req: Request, res: Response) => {
   const month = Number.parseInt(req.params.month);
   const day = Number.parseInt(req.params.day);
 
